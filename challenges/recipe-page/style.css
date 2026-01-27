@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --color1: #ffffff;
+    --color2: #f3e6d8;
+    --color3: #e4ded8;
+    --color4: #5f574e;
+    --color5: #302d2c;
+    --color6: #854632;
+    --color7: #7b284f;
+    --color8: #fff5fa;
+
+    --fonttitle: "Young Serif", serif;
+    --fontbody: "Outfit", sans-serif;
+}
