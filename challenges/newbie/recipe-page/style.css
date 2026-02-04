@@ -28,12 +28,12 @@
 }
 
 img {
-    width: 100%;
+width: 100%;
 }
 
-main {
-    margin: 10px;
-    padding: 10px;
+article {
+    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
 }
 
 h1 {
@@ -109,20 +109,32 @@ section > ol > li::marker {
     color: var(--color6);
 }
 
+section.nutrition {
+    padding-bottom: 20px;
+}
+
+div.table {
+    overflow: hidden;
+}
+
 table {
     margin: auto;
-    width: 90vw;
-    border-collapse: collapse;
+    width: 50vw;
+    border-collapse: collapse
 }
 
 td {
     border-bottom: 1px solid var(--color3);
-    padding: 10px 0px 10px 20px;
+    padding: 10px 0px 10px 25px;
 }
 
 td.cal {
     font-weight: 700;
     color: var(--color6);
+}
+
+tr:last-child td {
+    border-bottom: none;
 }
 
 footer {
@@ -141,4 +153,46 @@ footer > a {
 footer > a:hover {
     color: var(--color7);
     text-decoration: underline;
+}
+
+/* Bigger screens */
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: var(--color2);
+        padding: 50px 0px 5px 0px;
+    }
+
+    main {
+        background-color: var(--color1);
+        width: 50vw;
+        margin: auto;
+        padding: 18px;
+        border-radius: 10px;
+    }
+
+    img {
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    article {
+        margin: 0px;
+        padding: 5px 5px 0px 5px;
+    }
+
+    section.nutrition {
+        padding-bottom: 0px;
+    }
+
+    footer {
+        background-color: var(--color2);
+        margin: 10px;
+    }
+
+
+    
+
+
+
 }
