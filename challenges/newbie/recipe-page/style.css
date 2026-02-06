@@ -18,3 +18,106 @@
 
 /* Mobile first */
 
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: var(--fontbody);
+    color: var(--color4);
+}
+
+div.image {
+    width: 100vw;
+}
+
+img {
+    width: 100vw;
+}
+
+main {
+    /* margin: 10px; */
+    padding: 20px;
+}
+
+h1 {
+    font-family: var(--fonttitle);
+    color: var(--color5);
+    font-weight: 500;
+}
+
+p {
+    padding: 15px 0px 20px 0px;
+}
+
+
+aside#prep {
+    background-color: var(--color8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+aside#prep > h2 {
+    color: var(--color7);
+    font-family: var(--fontbody);
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+aside#prep > ul {
+    margin-left: 25px;
+}
+
+aside#prep > ul > li {
+    padding: 5px 15px;
+}
+
+aside#prep > ul > li::marker {
+    color: var(--color7);
+    font-size: 0.8em;
+    padding-left: 5px;
+}
+
+h2 {
+    font-family: var(--fonttitle);
+    color: var(--color6);
+    font-weight: 500;
+    padding: 20px 0px 10px 0px;
+}
+
+section#ing > ul {
+    margin: 5px 0px 10px 20px;
+    padding-bottom: 15px;
+}
+
+section#ing > ul > li {
+    padding: 5px 15px;
+}
+
+section#ing > ul > li::marker {
+    color: var(--color6);
+    font-size: 0.8em;
+}
+
+section#instr > ol {
+    margin: 5px 0px 10px 20px;
+    padding-bottom: 15px;
+}
+
+section#instr > ol > li {
+    padding: 5px 15px;
+}
+
+section#instr > ol > li::marker {
+    color: var(--color6);
+    font-weight: 700;
+}
+
+section#nutr > p.p-nutr {
+    padding: 5px 0px 15px 0px;
+}
+
+section#nutr > table {
+    border: 2px solid black;
+}
+
