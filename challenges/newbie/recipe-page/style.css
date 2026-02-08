@@ -56,49 +56,42 @@ h2 {
     margin: 20px 0px 15px 0px;
 }
 
+ol, ul {
+    margin: 0px 0px 20px 25px;
+}
+
+li {
+    padding: 4px 0px 4px 20px;
+}
+
+ul li::marker {
+    font-size: 0.8em;
+    color: var(--color6);
+}
+
 aside#prep {
     background-color: var(--color8);
-    padding: 20px 25px;
+    padding: 10px 0px 1px 20px;
     border-radius: 10px;
     margin: 25px 0px;
 }
 
-aside#prep > h2 {
+aside#prep h2 {
     font-family: var(--fontbody);
     color: var(--color7);
-    font-weight: 700;
     font-size: 1.2em;
-    margin: 0px;
+    font-weight: 600;
+    margin: 5px 0px 10px 0px;
 }
 
-ul {
-    margin: 10px 20px 0px 20px;
-
-}
-
-ul > li, ol > li {
-    padding-left: 20px;
-    padding: 5px;
-
-  }
-
-ul > li::marker {
-    font-size: 0.7em;
-    color: var(--color6);
-}
-
-aside#prep > ul > li::marker {
+aside#prep > ul li::marker {
     color: var(--color7);
+    margin-bottom: 10px;
 }
 
-section > ul, ol {
-    padding-left: 25px;
-    margin-bottom: 20px;
-}
-
-section#instr > ol > li::marker {
+ol li::marker {
+    font-weight: 600;
     color: var(--color6);
-    font-weight: 700;
 }
 
 section#nutr > p.p-nutr {
@@ -119,5 +112,22 @@ section#nutr table tr:last-child td {
     border-bottom: none;
 }
 
-section#nutr table td:last-child {
+section#nutr table td.cal > strong {
+    color: var(--color6);
+}
+
+footer {
+    background-color: var(--color8);
+    padding: 3px;
+    text-align: center;
+}
+
+footer > a {
+    color: var(--color7);
+    text-decoration: none;
+}
+
+footer > a:hover {
+    color: var(--color4);
+    text-decoration: underline;
 }
