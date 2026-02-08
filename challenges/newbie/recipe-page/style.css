@@ -24,6 +24,7 @@
     box-sizing: border-box;
     font-family: var(--fontbody);
     color: var(--color4);
+    line-height: 1.3em;
 }
 
 div.image {
@@ -34,4 +35,89 @@ img {
     width: 100%;
 }
 
+main {
+    padding: 20px 30px;
+}
 
+h1 {
+    font-family: var(--fonttitle);
+    color: var(--color5);
+    font-weight: 500;
+}
+
+p {
+    padding-top: 15px;
+}
+
+h2 {
+    font-family: var(--fonttitle);
+    color: var(--color6);
+    font-weight: 500;
+    margin: 20px 0px 15px 0px;
+}
+
+aside#prep {
+    background-color: var(--color8);
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin: 25px 0px;
+}
+
+aside#prep > h2 {
+    font-family: var(--fontbody);
+    color: var(--color7);
+    font-weight: 700;
+    font-size: 1.2em;
+    margin: 0px;
+}
+
+ul {
+    margin: 10px 20px 0px 20px;
+
+}
+
+ul > li, ol > li {
+    padding-left: 20px;
+    padding: 5px;
+
+  }
+
+ul > li::marker {
+    font-size: 0.7em;
+    color: var(--color6);
+}
+
+aside#prep > ul > li::marker {
+    color: var(--color7);
+}
+
+section > ul, ol {
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+section#instr > ol > li::marker {
+    color: var(--color6);
+    font-weight: 700;
+}
+
+section#nutr > p.p-nutr {
+    padding: 0px 0px 10px 0px;
+}
+
+section#nutr > table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+section#nutr > table td {
+    border-bottom: 1px solid var(--color3);
+    padding: 10px 30px;
+}
+
+section#nutr table tr:last-child td {
+    border-bottom: none;
+}
+
+section#nutr table td:last-child {
+}
