@@ -35,10 +35,10 @@ img {
     width: 100%;
 }
 
-main {
+article {
     padding: 20px 30px;
 }
-
+    
 h1 {
     font-family: var(--fonttitle);
     color: var(--color5);
@@ -130,4 +130,27 @@ footer > a {
 footer > a:hover {
     color: var(--color4);
     text-decoration: underline;
+}
+
+@media screen and (min-width: 768px){
+    body {
+        background-color: var(--color2);
+    }
+
+    main {
+        background-color: var(--color1);
+        width: 50%;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    article {
+        padding: 15px 0px;
+    }
+
 }
