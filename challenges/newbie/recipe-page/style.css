@@ -69,14 +69,14 @@ ul li::marker {
     color: var(--color6);
 }
 
-aside#prep {
+div#prep {
     background-color: var(--color8);
     padding: 10px 0px 1px 20px;
     border-radius: 10px;
     margin: 25px 0px;
 }
 
-aside#prep h2 {
+div#prep h2 {
     font-family: var(--fontbody);
     color: var(--color7);
     font-size: 1.2em;
@@ -84,7 +84,7 @@ aside#prep h2 {
     margin: 5px 0px 10px 0px;
 }
 
-aside#prep > ul li::marker {
+div#prep > ul li::marker {
     color: var(--color7);
     margin-bottom: 10px;
 }
