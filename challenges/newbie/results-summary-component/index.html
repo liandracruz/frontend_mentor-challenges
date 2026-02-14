@@ -2,46 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
+  <section id="result">
+    <p>Your Result</p>
+    <section id="score">
+      <p id="current-score">76</p>
+      <p id="max-score">of 100</p>
+    </section>
+    <article>
+      <h1>Great</h1>
+      <p id="text">You scored higher than 65% of the people who have taken these tests.</p>
+    </article>
+  </section>
   
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
+  <section id="summary">
+    <h2>Summary</h2>
+    <section id="reaction">
+      Reaction
+      80 / 100
+    </section>
+    <section id="memory">
+      Memory
+      92 / 100
+    </section>
+    <section id="verbal">
+      Verbal
+      61 / 100
+    </section>
+    <section id="visual">
+      Visual
+      72 / 100
+    </section>
+    <button>Continue</button>
+  </section>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <footer>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/liandra-cruz-971a32350/" target="_blank">Your Name Here</a>.
+    </footer>
 </body>
 </html>
