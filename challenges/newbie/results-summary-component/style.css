@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 18px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+section#result {
+    background-image: linear-gradient(#7857ff, #2e2be9);
+    color: #ffffff;
+    height: 30vh;
+    padding: 15px 20px 20px 20px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+section#result p {
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+}
+
+section#score {
+    background-image: linear-gradient(#4e21ca, #2421ca00);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    
+}
