@@ -4,61 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/mediaqueries.css" media="screen and (orientation: landscape)">
   <title>Frontend Mentor | Results summary component</title>
-  <script src="https://kit.fontawesome.com/8446548d95.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-  <section id="result">
-    <p>Your Result</p>
-    <section id="score">
-      <p id="current-score">76</p>
-      <p id="max-score">of 100</p>
+  <main>
+    <section id="result">
+      <p>Your Result</p>
+      <section id="score">
+        <p id="current-score">76</p>
+        <p id="max-score">of 100</p>
+      </section>
+      <article>
+        <h1>Great</h1>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </article>
     </section>
-    <article>
-      <h1>Great</h1>
-      <p>You scored higher than 65% of the people who have taken these tests.</p>
-    </article>
-  </section>
-  
-  <section id="summary">
-    <h2>Summary</h2>
-
-      <div id="reaction" class="summary-scores">
-        <div class="score-label">
-          <img src="assets/images/icon-reaction.svg" alt="">
-          <span>Reaction</span>
+    
+    <section id="summary">
+      <h2>Summary</h2>
+        <div id="reaction" class="summary-scores">
+          <div class="score-label">
+            <img src="assets/images/icon-reaction.svg" alt="">
+            <span>Reaction</span>
+          </div>
+          <p class="score-value"><strong>80</strong> / 100</p>
         </div>
-        <p class="score-value"><strong>80</strong> / 100</p>
-      </div>
-
-      <div id="memory" class="summary-scores">
-        <div class="score-label">
-          <img src="assets/images/icon-memory.svg" alt="">
-          <span>Memory</span>
+        <div id="memory" class="summary-scores">
+          <div class="score-label">
+            <img src="assets/images/icon-memory.svg" alt="">
+            <span>Memory</span>
+          </div>
+          <p class="score-value"><strong>92</strong> / 100</p>
         </div>
-        <p class="score-value"><strong>92</strong> / 100</p>
-      </div>
-
-      <div id="verbal" class="summary-scores">
-        <div class="score-label">
-          <img src="assets/images/icon-verbal.svg" alt="">
-          <span>Verbal</span>
+        <div id="verbal" class="summary-scores">
+          <div class="score-label">
+            <img src="assets/images/icon-verbal.svg" alt="">
+            <span>Verbal</span>
+          </div>
+          <p class="score-value"><strong>61</strong> / 100</p>
         </div>
-        <p class="score-value"><strong>61</strong> / 100</p>
-      </div>
-
-      <div id="visual" class="summary-scores">
-        <div class="score-label">
-          <img src="assets/images/icon-visual.svg" alt="">
-          <span>Visual</span>
+        <div id="visual" class="summary-scores">
+          <div class="score-label">
+            <img src="assets/images/icon-visual.svg" alt="">
+            <span>Visual</span>
+          </div>
+          <p class="score-value"><strong>72</strong> / 100</p>
         </div>
-        <p class="score-value"><strong>72</strong> / 100</p>
-      </div>
-    </section>
-
-    <button>Continue</button>
+        <button>Continue</button>
+      </section>
+  </main>
   
     <footer>
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.

@@ -126,10 +126,10 @@ div#visual {
 button {
     background-color: #303b5a;
     color: #ffffff;
-    padding: 10px;
-    width: 95vw;
+    padding: 10px 0px;
+    width: 100%;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 15px;
     border: none;
     border-radius: 50px;
     box-shadow: 1px 1px 3px #0000003a;
