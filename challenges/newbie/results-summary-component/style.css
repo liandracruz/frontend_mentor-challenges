@@ -71,7 +71,7 @@ section#summary h2 {
     margin-bottom: 15px;
 }
 
-section#summary div.summary-scores {
+/* section#summary div.summary-scores {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
@@ -80,17 +80,17 @@ section#summary div.summary-scores {
 }
 
 section#summary div#reaction {
-    background-color: #ff57574f;
+    background-color: #ff57571f;
 }
 
 section#summary div#memory {
-    background-color: #ffb01f4f;
+    background-color: #ffb01f1f;
 }
 
 section#summary div#verbal {
-    background-color: #00bd914f;
+    background-color: #00bd911f;
 }
 
 section#summary div#visual {
-    background-color: #1125d44f;
-}
+    background-color: #1125d41f;
+} */
