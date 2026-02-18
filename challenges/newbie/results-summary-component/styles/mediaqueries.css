@@ -49,8 +49,50 @@
         margin-bottom: 20px;
     }
 
+    .btn-continue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+    }
+
     button {
         width: 100%;
-        margin-top: 15%;
+        margin-top: 0px;
+        
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    main {
+        width: 60%;
+        height: 60%;
+    }
+
+    .btn-continue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    main {
+        width: 50%;
+        height: 60%;
+    }
+
+    .btn-continue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

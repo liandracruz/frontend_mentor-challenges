@@ -123,6 +123,12 @@ div#visual {
 
 }
 
+.btn-continue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 button {
     background-color: #303b5a;
     color: #ffffff;
@@ -143,7 +149,6 @@ button:hover {
 footer {
     font-size: 14px;
     text-align: center;
-    padding: 10px;
 }
 
 footer a {
