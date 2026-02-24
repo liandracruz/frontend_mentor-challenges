@@ -1,7 +1,6 @@
 @media screen and (min-width: 768px){
     body {
         background-color: #c8c7ff69;
-        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -9,7 +8,6 @@
 
     main {
         display: flex;
-        
         background-color: #ffffff;
         width: 70%;
         height: 60%;

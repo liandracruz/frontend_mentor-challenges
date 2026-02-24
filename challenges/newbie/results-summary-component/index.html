@@ -25,34 +25,9 @@
     
     <section id="summary">
       <h2>Summary</h2>
-        <div id="reaction" class="summary-scores">
-          <div class="score-label">
-            <img src="assets/images/icon-reaction.svg" alt="">
-            <span>Reaction</span>
-          </div>
-          <p class="score-value"><strong>80</strong> / 100</p>
-        </div>
-        <div id="memory" class="summary-scores">
-          <div class="score-label">
-            <img src="assets/images/icon-memory.svg" alt="">
-            <span>Memory</span>
-          </div>
-          <p class="score-value"><strong>92</strong> / 100</p>
-        </div>
-        <div id="verbal" class="summary-scores">
-          <div class="score-label">
-            <img src="assets/images/icon-verbal.svg" alt="">
-            <span>Verbal</span>
-          </div>
-          <p class="score-value"><strong>61</strong> / 100</p>
-        </div>
-        <div id="visual" class="summary-scores">
-          <div class="score-label">
-            <img src="assets/images/icon-visual.svg" alt="">
-            <span>Visual</span>
-          </div>
-          <p class="score-value"><strong>72</strong> / 100</p>
-        </div>
+        
+      <div id="summary-items-container"></div>
+
         <div class="btn-continue">
           <button>Continue</button>
         </div>
@@ -61,7 +36,29 @@
   
     <footer>
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://www.linkedin.com/in/liandra-cruz-971a32350/" target="_blank">Your Name Here</a>.
+      Coded by <a href="https://www.linkedin.com/in/liandra-cruz-971a32350/" target="_blank">Liandra Cruz</a>.
     </footer>
+
+    <script>
+      const summaryContainer = document.getElementById('summary-items-container')
+
+      fetch('./data.json')
+      .then(response => response.json())
+      .then(data => {
+        data.forEach(item => {
+          const itemHTML = `
+          <div class="summary-scores" id="${item.category.toLowerCase()}">
+            <div class="score-label">
+              <img src="${item.icon}" alt="${item.category} icon>">
+              <span>${item.category}</span>
+            </div>
+          <p class="score-value"><strong>${item.score}</strong> / 100</p>
+          </div>`
+
+          summaryContainer.innerHTML += itemHTML
+        })
+      })
+      .catch(error => console.error('Error loading the JSON:', error))
+    </script>
 </body>
 </html>
