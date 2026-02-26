@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --lightgreen: #3c8067;
     --darkgreen: #1b4133;
@@ -7,6 +9,70 @@
     --grey: #6c7289;
     --cream: #f2ebe3;
     --white: #ffffff;
+
+    --fontbase:"Montserrat", sans-serif;
+    --fontspecial: "Fraunces", serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--fontbase);
+    color: var(--black);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--cream);
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--white);
+    width: 60%;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+section#image-mobile {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+section#image-mobile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+section#image-desktop {
+    display: none;
+}
+
+section#content {
+    margin: 20px;
+}
+
+p.topo {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-family: var(--fontspecial);
+    color: var(--darkgreen);
+    padding: 10px 0px;
 }
 
 
