@@ -19,6 +19,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: var(--fontbase);
+    font-size: 14px;
     color: var(--black);
 }
 
@@ -30,6 +31,7 @@ body {
 
     background-color: var(--cream);
     height: 100vh;
+    padding: 20px;
 }
 
 main {
@@ -37,6 +39,7 @@ main {
     flex-direction: column;
     
     background-color: var(--white);
+    margin-bottom: 15px;
     width: 60%;
     overflow: hidden;
     border-radius: 6px;
@@ -63,16 +66,79 @@ section#content {
     margin: 20px;
 }
 
-p.topo {
+p.top {
     font-size: 10px;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 h1 {
     font-family: var(--fontspecial);
+    font-size: 26px;
+    line-height: 26px;
     color: var(--darkgreen);
     padding: 10px 0px;
 }
 
+p.description {
+    line-height: 20px;
+}
 
+section#prices {
+    display: flex;
+    padding: 10px 0px;
+}
+
+p#current-price {
+    font-family: var(--fontspecial);
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--lightgreen);
+    padding-right: 15px;
+}
+
+p#old-price {
+    margin-top: 5px;
+    text-decoration: line-through;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 10px;
+    background-color: var(--lightgreen);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.11);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: var(--darkgreen);
+}
+
+img.cart-icon {
+    margin-right: 5px;
+}
+
+p.btn-cart {
+    color: var(--white);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--darkgreen);
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color: var(--lightgreen);
+    text-decoration: underline;
+}
