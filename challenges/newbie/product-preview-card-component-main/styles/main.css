@@ -40,7 +40,7 @@ main {
     
     background-color: var(--white);
     margin-bottom: 15px;
-    width: 60%;
+    width: 50vw;
     overflow: hidden;
     border-radius: 6px;
 }
@@ -81,7 +81,7 @@ h1 {
 }
 
 p.description {
-    line-height: 20px;
+    line-height: 22px;
 }
 
 section#prices {
