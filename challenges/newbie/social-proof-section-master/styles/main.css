@@ -1,19 +1,21 @@
 @charset "UTF-8";
 
-/* 
-Colors:
-hsl(300, 43%, 22%)
-hsl(333, 80%, 67%)
-hsl(303, 10%, 53%)
-hsl(300, 24%, 96%)
-hsl(0, 0%, 100%)
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
-Font
-- Family: [League Spartan](https://fonts.google.com/specimen/League+Spartan)
-*/
+:root {
+    --dark-purple: #502050;
+    --pink: #ee68a4;
+    --lilac: #937b92;
+    --offwhite: #f7f2f7;
+    --white: #ffffff;
+
+    --mainfont: "League Spartan", sans-serif;
+}
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: var(--mainfont);
+    font-size: 15px;
 }
