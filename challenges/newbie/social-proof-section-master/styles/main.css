@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* 
+Colors:
+hsl(300, 43%, 22%)
+hsl(333, 80%, 67%)
+hsl(303, 10%, 53%)
+hsl(300, 24%, 96%)
+hsl(0, 0%, 100%)
+
+Font
+- Family: [League Spartan](https://fonts.google.com/specimen/League+Spartan)
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
