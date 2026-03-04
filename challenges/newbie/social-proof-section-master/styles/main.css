@@ -19,3 +19,18 @@
     font-family: var(--mainfont);
     font-size: 15px;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--white);
+    background-image: 
+    url('../images/bg-pattern-top-mobile.svg'),
+    url('../images/bg-pattern-bottom-mobile.svg');
+    background-position: top -10% left -10%, bottom -10% right -10%;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    
+    
+    /* left 5px top -100px, right 10px bottom 1000%; */
+}
