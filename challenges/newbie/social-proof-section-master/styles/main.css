@@ -18,6 +18,7 @@
     box-sizing: border-box;
     font-family: var(--mainfont);
     font-size: 15px;
+    line-height: 20px;
 }
 
 main {
@@ -27,4 +28,99 @@ main {
     background-position: top center, bottom center;
     background-repeat: no-repeat, no-repeat;
     background-size: 100% 30%, 100% 40%;
+}
+
+h1 {
+    font-size: 30px;
+    color: var(--dark-purple);
+    text-align: center;
+    padding-top: 60px;
+    line-height: 30px;
+}
+
+p {
+    color: var(--lilac);
+    margin: 20px;
+    text-align: center;
+}
+
+section#rates {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+section#rates > div.block-rate {
+    background-color: var(--offwhite);
+    font-weight: 700;
+    color: var(--dark-purple);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+section#coments {
+    margin: 30px 0px 60px 0px;
+}
+
+section#coments > article.block-coment {
+    background-color: var(--dark-purple);
+    margin: 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+section#coments > article.block-coment > div.person {
+    display: flex;
+    margin-left: 15px;
+}
+
+section#coments > article.block-coment > div.person img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    align-self: center;   
+}
+
+section#coments > article.block-coment > div.person > div.id-coment {
+    display: flex;
+    flex-direction: column;
+}
+
+section#coments > article.block-coment > div.person > div.id-coment > p.name {
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 0px;
+}
+
+section#coments > article.block-coment > div.person > div.id-coment > p.verification {
+    font-weight: 400;
+    color: var(--pink);
+    margin-top: 0px;
+}
+
+section#coments > article.block-coment > p.text-coment {
+    color: var(--white);
+    text-align: left;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: var(--lilac);
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: var(--offwhite);
+}
+
+footer > a:hover {
+    text-decoration: underline;
+    color: var(--dark-purple);
 }
