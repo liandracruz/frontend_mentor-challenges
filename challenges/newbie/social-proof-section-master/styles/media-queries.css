@@ -1,7 +1,13 @@
 @charset "utf-8";
 
 @media only screen and (min-width: 768px) {
-    body {
-        background-color: red;
+    main {
+    min-height: 100vh;
+    position: relative;
+    background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50% 45%, 80% 80%;
     }
+
 }
