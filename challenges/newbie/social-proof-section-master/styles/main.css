@@ -54,11 +54,22 @@ section#rates {
 section#rates > div.block-rate {
     background-color: var(--offwhite);
     font-weight: 700;
-    color: var(--dark-purple);
-    padding: 20px;
+    padding: 15px 0px;
     margin: 10px;
     text-align: center;
     border-radius: 8px;
+}
+
+section#rates > div.block-rate > div.star-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+section#rates > div.block-rate > p.rates-text {
+    color: var(--dark-purple);
+    margin: 0px;
 }
 
 section#coments {

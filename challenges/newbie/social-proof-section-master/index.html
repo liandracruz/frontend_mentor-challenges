@@ -17,15 +17,15 @@
       <section id="rates">
         <div class="block-rate">
           <div class="star-container"></div>
-          Rated 5 Stars in Reviews
+          <p class="rates-text">Rated 5 Stars in Reviews</p>
         </div>
         <div class="block-rate">
           <div class="star-container"></div>
-          Rated 5 Stars in Report Guru
+          <p class="rates-text">Rated 5 Stars in Report Guru</p>
         </div>
         <div class="block-rate">
           <div class="star-container"></div>
-          Rated 5 Stars in BestTech
+          <p class="rates-text">Rated 5 Stars in BestTech</p>
         </div>
       </section>
       
@@ -83,7 +83,16 @@
     </footer>
 
     <script>
-      // ADD stars
+      const starsContainers = document.querySelectorAll('.star-container');
+
+      starsContainers.forEach(container => {
+        for(i = 0; i < 5; i++) {
+          const starImg = document.createElement('img');
+          starImg.src = 'images/icon-star.svg';
+          starImg.alt = 'star icon';
+          container.appendChild(starImg);
+        }
+      });
     </script>
   </body>
 </html>
