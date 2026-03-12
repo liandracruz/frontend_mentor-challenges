@@ -1,13 +1,31 @@
 @charset "utf-8";
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
+    body {
+        min-height: 100vh;
+        position: relative;
+        background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+        background-position: top left, bottom right;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 30% 40%, 80% 80%;
+    }
+    
     main {
-    min-height: 100vh;
-    position: relative;
-    background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
-    background-position: top left, bottom right;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 50% 45%, 80% 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 75px 125px;
+    }
+
+    h1 {
+        width: 60%;
+        text-align: left;
+        margin: 40px 60px;
+    }
+
+    p {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
     }
 
 }
