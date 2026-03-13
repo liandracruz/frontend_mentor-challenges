@@ -14,18 +14,79 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, auto);
-        gap: 75px 125px;
+        gap: 50px 125px;
     }
 
-    h1 {
-        width: 60%;
-        text-align: left;
-        margin: 40px 60px;
-    }
-
-    p {
+    div#intro {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
+        text-align: left;
     }
 
+    div#intro > h1 {
+        max-width: 20ch;
+        margin: 30px 70px 0px 70px;
+        font-size: 40px;
+        line-height: 35px;
+        
+    }
+
+    div#intro > p {
+        max-width: 48ch;
+        margin: 0px 120px;
+    }
+
+    section#rates > div.block-rate {
+        display: flex;
+        align-items: center;
+    
+        width: 450px;
+        height: 55px;
+        padding: 5px 0px;
+    }
+    
+    section#rates > div#block1 {
+        margin: 90px 0px 0px 0px;
+    }
+
+    section#rates > div#block2 {
+        margin-left: 50px;
+    }
+
+    section#rates > div#block3 {
+        margin: 0px 100px;
+    }
+
+    section#rates > div.block-rate > div.star-container {
+        margin: 0px 30px;
+    }
+
+    section#rates > div.block-rate > div.star-container > img {
+        width: 18px;
+        height: 18px;
+    }
+
+    section#coments {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column: 1 / span 2;
+        margin: 0px;
+    }
+
+    section#coments > article.block-coment {
+        width: 350px;
+        height: 235px;
+    }
+
+    section#coments > article#coment1 {
+        margin-top: 0px;
+    }
+
+    section#coments > article#coment2 {
+        margin-top: 20px;
+    }
+
+    section#coments > article#coment3 {
+        margin-top: 40px;
+    }
 }

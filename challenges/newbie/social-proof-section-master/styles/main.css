@@ -34,10 +34,13 @@ body {
 main {
 }
 
+div#intro {
+    text-align: center;
+}
+
 h1 {
     font-size: 30px;
     color: var(--dark-purple);
-    text-align: center;
     padding: 60px 50px 10px 50px;
     line-height: 30px;
 }
@@ -45,7 +48,7 @@ h1 {
 p {
     color: var(--lilac);
     margin: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 section#rates {
