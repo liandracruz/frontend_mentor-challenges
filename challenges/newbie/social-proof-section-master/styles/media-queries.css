@@ -29,23 +29,23 @@
 
     div#intro > h1 {
         min-width: 18ch;
-        margin: 20px 70px 0px 70px;
-        font-size: 30px;
+        margin: 20px 70px 0px 40px;
+        font-size: 35px;
         line-height: 35px;
         
     }
 
     div#intro > p {
-        max-width: 50ch;
-        margin: 0px 100px;
+        /* max-width: 50ch; */
+        margin: 0px 50px 0px 90px;
     }
 
     section#rates > div.block-rate {
         display: flex;
         align-items: center;
     
-        width: 250px;
-        height: 30px;
+        width: 400px;
+        height: 50px;
         padding: 5px 0px;
     }
     
@@ -54,11 +54,11 @@
     }
 
     section#rates > div#block2 {
-        margin-left: 50px;
+        margin-left: 40px;
     }
 
     section#rates > div#block3 {
-        margin: 0px 100px;
+        margin: 0px 100px 0px 80px;
     }
 
     section#rates > div.block-rate > div.star-container {
