@@ -28,6 +28,105 @@
     }
 
     div#intro > h1 {
+        min-width: 18ch;
+        margin: 20px 70px 0px 70px;
+        font-size: 30px;
+        line-height: 35px;
+        
+    }
+
+    div#intro > p {
+        max-width: 50ch;
+        margin: 0px 100px;
+    }
+
+    section#rates > div.block-rate {
+        display: flex;
+        align-items: center;
+    
+        width: 250px;
+        height: 30px;
+        padding: 5px 0px;
+    }
+    
+    section#rates > div#block1 {
+        margin: 90px 0px 0px 0px;
+    }
+
+    section#rates > div#block2 {
+        margin-left: 50px;
+    }
+
+    section#rates > div#block3 {
+        margin: 0px 100px;
+    }
+
+    section#rates > div.block-rate > div.star-container {
+        margin: 0px 30px;
+    }
+
+    section#rates > div.block-rate > div.star-container > img {
+        width: 18px;
+        height: 18px;
+    }
+
+    section#coments {
+        display: grid;
+        grid-template-columns: repeat(3, max-content);
+        grid-column: 1 / span 2;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    section#coments > article.block-coment {
+        width: 350px;
+        /* height: 235px; */
+    }
+
+    section#coments > article#coment1 {
+        margin-top: 0px;
+    }
+
+    section#coments > article#coment2 {
+        margin-top: 30px;
+    }
+
+    section#coments > article#coment3 {
+        margin-top: 60px;
+    }
+
+    footer {
+        margin-top: 22px;
+        
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    body {
+        min-height: 100vh;
+        position: relative;
+        background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+        background-position: top left, bottom right;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 30% 40%, 80% 80%;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 50px 0px;
+    }
+
+    div#intro {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        text-align: left;
+    }
+
+    div#intro > h1 {
         max-width: 20ch;
         margin: 20px 70px 0px 70px;
         font-size: 35px;
@@ -80,7 +179,6 @@
 
     section#coments > article.block-coment {
         width: 350px;
-        /* height: 235px; */
     }
 
     section#coments > article#coment1 {
