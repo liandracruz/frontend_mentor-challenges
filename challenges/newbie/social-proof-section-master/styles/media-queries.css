@@ -1,2 +1,59 @@
 @charset "utf-8";
 
+@media (min-width: 1024px) {
+    /* Desktop styles go here */
+
+    body {
+        min-height: 100vh;
+        position: relative;
+        background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+        background-position: top left, bottom right;
+        background-attachment: fixed;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 30% 40%, 80% 80%;
+    }
+    
+    main {
+      max-width: 1110px; /* Standard container size for this challenge */
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Split into two columns */
+      gap: 30px;
+      padding-top: 100px;
+    }
+
+    div#intro {
+        text-align: left; /* Align text to the left for desktop */
+        grid-column: 1;
+      }
+    
+      section#rates {
+        grid-column: 2;
+        justify-content: center;
+      }
+    
+      section#comments {
+        grid-column: 1 / span 2; /* Span across both columns */
+        display: flex;
+        flex-direction: row; /* Horizontal testimonials */
+        gap: 30px;
+        margin-top: 50px;
+      }
+
+      .block-rate {
+        max-width: 450px;
+      }
+      
+      /* Select blocks by ID to push them right */
+      #block1 { align-self: flex-start; margin-left: 0; }
+      #block2 { align-self: center; margin-left: 50px; }
+      #block3 { align-self: flex-end; margin-left: 100px; }
+
+      .block-comment {
+        flex: 1;
+      }
+    
+      #comment1 { transform: translateY(0); }
+      #comment2 { transform: translateY(20px); }
+      #comment3 { transform: translateY(40px); }
+  }

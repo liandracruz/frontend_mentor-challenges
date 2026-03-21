@@ -79,11 +79,11 @@ section#rates > div.block-rate > p.rates-text {
     margin: 0px;
 }
 
-section#coments {
+section#comments {
     margin: 30px 0px 60px 0px;
 }
 
-section#coments > article.block-coment {
+section#comments > article.block-comment {
     background-color: var(--dark-purple);
     margin: 15px;
     border-radius: 8px;
@@ -91,36 +91,36 @@ section#coments > article.block-coment {
     padding: 10px;
 }
 
-section#coments > article.block-coment > div.person {
+section#comments > article.block-comment > div.person {
     display: flex;
     margin-left: 15px;
 }
 
-section#coments > article.block-coment > div.person img {
+section#comments > article.block-comment > div.person img {
     height: 50px;
     width: 50px;
     border-radius: 50px;
     align-self: center;   
 }
 
-section#coments > article.block-coment > div.person > div.id-coment {
+section#comments > article.block-comment > div.person > div.id-comment {
     display: flex;
     flex-direction: column;
 }
 
-section#coments > article.block-coment > div.person > div.id-coment > p.name {
+section#comments > article.block-comment > div.person > div.id-comment > p.name {
     font-weight: 700;
     color: var(--white);
     margin-bottom: 0px;
 }
 
-section#coments > article.block-coment > div.person > div.id-coment > p.verification {
+section#comments > article.block-comment > div.person > div.id-comment > p.verification {
     font-weight: 400;
     color: var(--pink);
     margin-top: 0px;
 }
 
-section#coments > article.block-coment > p.text-coment {
+section#comments > article.block-comment > p.text-comment {
     color: var(--white);
     text-align: left;
     margin-top: 10px;
