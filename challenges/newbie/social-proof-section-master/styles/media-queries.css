@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 @media (min-width: 1024px) {
-    /* Desktop styles go here */
 
     body {
         min-height: 100vh;
@@ -14,44 +13,77 @@
     }
     
     main {
-      max-width: 1110px; /* Standard container size for this challenge */
+      max-width: 1110px;
       margin: 0 auto;
       display: grid;
-      grid-template-columns: 1fr 1fr; /* Split into two columns */
+      grid-template-columns: 1fr 1fr;
       gap: 30px;
-      padding-top: 100px;
+      padding-top: 80px;
     }
 
     div#intro {
-        text-align: left; /* Align text to the left for desktop */
+        text-align: left;
         grid-column: 1;
+      }
+
+    div#intro h1 {
+        font-size: 35px;
+        max-width: 18ch;
+        padding: 0px 70px;
+      }
+
+      div#intro p {
+        padding: 0px 50px;
       }
     
       section#rates {
         grid-column: 2;
         justify-content: center;
       }
-    
-      section#comments {
-        grid-column: 1 / span 2; /* Span across both columns */
-        display: flex;
-        flex-direction: row; /* Horizontal testimonials */
-        gap: 30px;
-        margin-top: 50px;
-      }
-
+      
       .block-rate {
-        max-width: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 15px;
+        width: 400px;
+        gap: 30px;
+      }
+    
+      .block-rate .star-container {
+        margin: 0;
       }
       
-      /* Select blocks by ID to push them right */
       #block1 { align-self: flex-start; margin-left: 0; }
       #block2 { align-self: center; margin-left: 50px; }
       #block3 { align-self: flex-end; margin-left: 100px; }
 
+      
+      section#comments {
+        grid-column: 1 / span 2;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin: 0px 50px 60px 50px;
+      }
+
+    
+
+      #comments {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        height: 300px;
+        gap: 30px;
+      }
+    
       .block-comment {
         flex: 1;
       }
+    
+      #comment1 { align-self: flex-start; }
+      #comment2 { align-self: center; }
+      #comment3 { align-self: flex-end; }
     
       #comment1 { transform: translateY(0); }
       #comment2 { transform: translateY(20px); }
