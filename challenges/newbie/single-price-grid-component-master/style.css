@@ -11,4 +11,25 @@
     --font: "Karla", sans-serif;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
 
+body {
+    background-color: var(--color3);
+}
+
+header {
+    background-color: #ffffff;
+}
+
+section#subscription {
+    background-color: var(--color1);
+}
+
+section#why-us {
+    background-color: #2ab2b0da;
+}
