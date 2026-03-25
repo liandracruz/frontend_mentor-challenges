@@ -112,3 +112,49 @@ footer a:hover {
     text-decoration: underline;
     color: var(--light-grey);
 }
+
+@media screen and (min-width: 1024px) {
+    body {
+        padding-top: 60px;
+    }
+    
+    header h1 span {
+        display: block;
+    }
+
+    header p#text-intro {
+        margin: 0px 210px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
+        margin: 100px;
+    }
+
+    main section.cards {
+        margin-bottom: 0px;
+    }
+
+    main section#supervisor-card {
+        grid-row: 1 / span 2;
+        align-self: center;
+    }
+
+    main section#tb-card {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    main section#karma-card {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    main section#calc-card {
+        grid-row: 1 / span 2;
+        align-self: center;
+    }
+}
