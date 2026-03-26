@@ -16,6 +16,8 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: var(--font);
+    font-weight: 400;
+    color: #ffffff;
 }
 
 body {
@@ -26,8 +28,49 @@ header {
     background-color: #ffffff;
 }
 
+header h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--color1);
+}
+
+header p {
+    color: var(--color4);
+}
+
+header p#money-back {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color2);
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 section#subscription {
     background-color: var(--color1);
+}
+
+section#subscription div#price p {
+    display: inline;
+}
+
+section#subscription div#price p#value {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+section#subscription div#price p#p-price {
+    color: #ffffff73;
+}
+
+section#subscription button {
+    background-color: var(--color2);
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 section#why-us {
