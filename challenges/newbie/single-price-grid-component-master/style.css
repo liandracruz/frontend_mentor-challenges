@@ -85,8 +85,8 @@ section#subscription > div#price p#value {
     font-weight: 700;
 }
 
-section#subscription > div#price p#p-price {
-    color: #ffffff8d;
+section#subscription > div#price p#p-price, section#why-us p {
+    color: #ffffff94;
 }
 
 section#subscription button {
@@ -97,6 +97,11 @@ section#subscription button {
     margin-top: 20px;
     padding: 15px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.308);
+    transition: 0.5s;
+}
+
+section#subscription button:hover {
+    background-color: #8ca327;
 }
 
 section#why-us {
@@ -116,11 +121,37 @@ footer p {
 footer a {
     text-decoration: none;
     color: var(--color1);
+    transition: 0.5s;
 }
 
 footer a:hover {
     color: #165a59;
     text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        max-width: 650px;
+    }
+
+    header {
+        grid-column: 1 / 3;
+    }
+
+    section#subscription div#price {
+        margin: 25px 0px 10px 0px;
+    }
+
+    section#subscription button {
+        margin-top: 30px;
+    }
+
+    section#why-us p {
+        margin-right: 60px;
+    }
 }
 
 
