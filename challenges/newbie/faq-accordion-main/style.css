@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+:root {
+    --white: #ffffff;
+    --light-purple: #f9f0ff;
+    --medium-purple: #8c6991;
+    --dark-purple: #2f1533;
+    
+    /* fonts */
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
