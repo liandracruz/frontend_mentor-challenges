@@ -9,6 +9,7 @@
     --white: #ffffff;
     --light-purple: #f9f0ff;
     --medium-purple: #8c6991;
+    --active-question: #9c27ac;
     --dark-purple: #2f1533;
     
     --font: 'WorkSans', sans-serif;
@@ -65,17 +66,37 @@ section div.question {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 20px 0px;
+    cursor: pointer;
 }
 
 section div.question h2 {
     font-size: 18px;
+    transform: 0.5s;
+}
+
+section div.question h2:hover {
+    color: var(--active-question);
 }
 
 section p.answer {
     color: var(--medium-purple);
-    /* margin: 20px 0px; */
+    margin: 20px 0px;
     line-height: 22px;
 }
 
+footer {
+    text-align: center;
+    margin: 5px 10px;
+}
 
+footer a {
+    color: var(--medium-purple);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color: var(--dark-purple);
+}
 
