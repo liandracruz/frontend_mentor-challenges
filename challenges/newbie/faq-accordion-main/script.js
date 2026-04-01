@@ -14,12 +14,6 @@ questions.forEach(question => {
                 const otherIcon = item.querySelector('img');
                 otherIcon.src = 'assets/images/icon-plus.svg';
             }
-
-            const otherAnswer = item.nextElementSibling;
-            const otherIcon = item.querySelector('img');
-
-            otherAnswer.classList.remove('active');
-            otherIcon.src = 'assets/images/icon-plus.svg';
         })
         answer.classList.toggle('active');
 
