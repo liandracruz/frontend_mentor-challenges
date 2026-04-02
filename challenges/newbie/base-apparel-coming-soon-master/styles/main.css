@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --light-pink: #ce9797;
+    --bright-pink: #f96262;
+    --gray: #413a3a;
+    --color4: linear-gradient(135deg, #ffffff, #fff5f5);
+    --color5: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+
+    --font: "Josefin Sans", sans-serif;
+}
+
+
