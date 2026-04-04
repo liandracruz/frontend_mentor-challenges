@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     body {
         display: grid;
-        grid-template-columns: 1fr 40%;
+        grid-template-columns: 60% 40%;
         grid-template-rows: auto 1fr auto;
         height: 100vh;
         overflow: hidden;
@@ -27,12 +27,11 @@
         grid-row: 1 / 4;
     }
     
-    picture source {
+    picture img {
         width: 100%;
         height: 100vh;
         object-fit: cover;
         object-position: top;
-        /* display: block; */
     }
 
     main {
@@ -46,7 +45,7 @@
     }
 
     p {
-        margin-right: 80px;
+        margin-right: 0px;
     }
 
     div#input-email {
@@ -60,9 +59,5 @@
 
     div#input-email button:hover {
         width: 90px;
-    }
-
-    footer {
-
     }
 }
