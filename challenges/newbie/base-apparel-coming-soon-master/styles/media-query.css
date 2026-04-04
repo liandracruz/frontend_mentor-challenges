@@ -60,4 +60,11 @@
     div#input-email button:hover {
         width: 90px;
     }
+
+    div#input-email > img#icon-error {
+        /* position: absolute; */
+        /* top: 50%; */
+        right: 100px;
+        /* transform: translateY(-50%); */
+    }
 }
