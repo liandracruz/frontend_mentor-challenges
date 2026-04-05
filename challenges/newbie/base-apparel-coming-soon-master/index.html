@@ -52,7 +52,7 @@
        const emailValue = emailInput.value;
        const isValid = emailRegex.test(emailValue);
 
-       if(!isValid) {
+       if(!isValid || emailValue === "") {
         errorElements.forEach((element) => {
           element.style.display = "block";
           emailInput.style.border = "2px solid #f96262";
