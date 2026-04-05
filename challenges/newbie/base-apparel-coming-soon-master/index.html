@@ -28,7 +28,7 @@
     </p>
 
     <div id="input-email">
-      <input type="email" name="email" id="id-email" placeholder="Email Address">
+      <input type="email" name="email" id="id-email" placeholder="Email Address" required>
       <img src="images/icon-error.svg" alt="error" class="error" id="icon-error">
       <button type="submit"><img src="images/icon-arrow.svg" alt="arrow"></button>
       <p class="error">Please provide a valid email</p>
@@ -46,8 +46,18 @@
     const btn = document.querySelector('button');
     const errorElements = document.querySelectorAll('.error');
 
-    btn.addEventListener('click', () => {
-       
+    btn.addEventListener('click', (event) => {
+       event.preventDefault();
+       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+       const emailValue = emailInput.value;
+       const isValid = emailRegex.test(emailValue);
+
+       if(!isValid) {
+        errorElements.forEach((element) => {
+          element.style.display = "block";
+          emailInput.style.border = "2px solid #f96262";
+        })
+       }
     });
   </script>
 </body>
