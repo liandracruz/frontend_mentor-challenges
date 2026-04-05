@@ -17,3 +17,70 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body {
+    font-family: var(--font);
+    padding: 30px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+
+}
+
+header > img {
+    width: 50px;
+    padding: 20px 0px;
+}
+
+header > div#test-presentation h1 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+header > div#test-presentation h1 strong {
+    font-weight: 700;
+}
+
+header > div#test-presentation p {
+    font-size: 14px;
+    margin: 15px 0px;
+}
+
+section#email-input {
+    /* background-color: #4f7df3; */
+    width: 80%;
+}
+
+section#email-input > input, button {
+    display: block;
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 50px;
+}
+
+section#email-input input {
+    border: 1px solid var(--light-blue);
+    margin-bottom: 10px;
+}
+
+section#email-input input::placeholder {
+    color: var(--light-blue);
+}
+
+section#email-input button {
+    background-color: var(--blue);
+    color: #ffffff;
+    border: none;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.201);
+}
+
+
+
