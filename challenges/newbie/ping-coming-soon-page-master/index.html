@@ -43,5 +43,22 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
       Coded by <a href="#">Liandra Cruz</a>.
     </footer>
+
+  <script>
+    const emailInput = document.querySelector('#id-email');
+    const btn = document.querySelector('button');
+    const errorMsg = document.querySelector('.error-msg');
+
+    btn.addEventListener('click', (event) => {
+      const userEmail = emailInput.value;
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      const isValid = emailRegex.test(userEmail);
+
+      if(!isValid || userEmail === "") {
+        errorMsg.style.display = "block";
+        emailInput.style.border = "1px solid #ff5263";
+      }
+    });
+  </script>
 </body>
 </html>
