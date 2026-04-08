@@ -69,11 +69,19 @@ section#email-input > input, button {
 
 section#email-input input {
     border: 1px solid var(--light-blue);
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 section#email-input input::placeholder {
     color: var(--light-blue);
+}
+
+section#email-input p.error-msg {
+    display: none;
+    font-size: 12px;
+    color: var(--error);
+    font-style: italic;
+    margin: 5px 0px 20px 0px;
 }
 
 section#email-input button {
@@ -81,6 +89,7 @@ section#email-input button {
     color: #ffffff;
     border: none;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.201);
+    margin-top: 10px;
 }
 
 section#img-db {
