@@ -9,7 +9,6 @@
   <script src="https://kit.fontawesome.com/8446548d95.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
   <main>
     <header>
       <img src="images/logo.svg" alt="logo ping">
@@ -22,7 +21,8 @@
 
     <section id="email-input">
       <input type="email" name="email" id="id-email" placeholder="Your email address..." required>
-      <p class="error-msg">Please provide a valid email address</p>
+      <p id="invalid-email" class="error-msg">Please provide a valid email address</p>
+      <p id="empty-input" class="error-msg">Whoops! It looks like you forgot to add your email</p>
       <button>Notify Me</button>
     </section>
 
@@ -47,7 +47,8 @@
   <script>
     const emailInput = document.querySelector('#id-email');
     const btn = document.querySelector('button');
-    const errorMsg = document.querySelector('.error-msg');
+    const invalidEmail = document.querySelector('#invalid-email');
+    const emptyInput = document.querySelector('#empty-input');
     const socialMediaElements = document.querySelectorAll('.sm-btn')
 
     btn.addEventListener('click', (event) => {
@@ -55,8 +56,13 @@
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       const isValid = emailRegex.test(userEmail);
 
-      if(!isValid || userEmail === "") {
-        errorMsg.style.display = "block";
+      if(userEmail === "") {
+        emptyInput.style.display = "block";
+        invalidEmail.style.display = "none";
+        emailInput.style.border = "1px solid #ff5263";
+      } else if(!isValid) {
+        invalidEmail.style.display = "block";
+        emptyInput.style.display = "none";
         emailInput.style.border = "1px solid #ff5263";
       }
     });
