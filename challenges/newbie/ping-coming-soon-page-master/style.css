@@ -32,10 +32,6 @@ main {
     align-items: center;
 }
 
-header {
-
-}
-
 header > img {
     width: 50px;
     padding: 20px 0px;
@@ -56,7 +52,6 @@ header > div#test-presentation p {
 }
 
 section#email-input {
-    /* background-color: #4f7df3; */
     width: 80%;
 }
 
@@ -69,7 +64,6 @@ section#email-input > input, button {
 
 section#email-input input {
     border: 1px solid var(--light-blue);
-    /* margin-bottom: 10px; */
 }
 
 section#email-input input::placeholder {
@@ -123,7 +117,6 @@ div#copyright {
 }
 
 footer {
-    /* background-color: var(--light-blue); */
     font-size: 12px;
     padding: 5px;
 }
@@ -144,7 +137,6 @@ footer a:hover {
     }
 
     section#email-input {
-        /* background-color: var(--dark); */
         width: 70%;
         display: grid;
         grid-template-columns: 70% auto;
@@ -174,7 +166,6 @@ footer a:hover {
     }
 
     section#img-db {
-        /* background-color: #ff5263; */
         width: 70%;
     }
 

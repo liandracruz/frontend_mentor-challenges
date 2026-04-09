@@ -31,9 +31,9 @@
     </section>
 
     <section id="social-media">
-      <a href="#" class="sm-btn"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href="#" class="sm-btn"><i class="fa-brands fa-twitter"></i></a>
-      <a href="#" class="sm-btn"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" aria-label="Facebook" class="sm-btn"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" aria-label="Twitter" class="sm-btn"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#" aria-label="Instagram" class="sm-btn"><i class="fa-brands fa-instagram"></i></a>
     </section>
 
     <div id="copyright">&copy; Copyright Ping. All rights reserved.</div>
@@ -48,6 +48,7 @@
     const emailInput = document.querySelector('#id-email');
     const btn = document.querySelector('button');
     const errorMsg = document.querySelector('.error-msg');
+    const socialMediaElements = document.querySelectorAll('.sm-btn')
 
     btn.addEventListener('click', (event) => {
       const userEmail = emailInput.value;
@@ -58,6 +59,12 @@
         errorMsg.style.display = "block";
         emailInput.style.border = "1px solid #ff5263";
       }
+    });
+
+    socialMediaElements.forEach((element) => {
+      element.addEventListener('click', () => {
+        alert('This element is for aesthetic purposes only.');
+      });
     });
   </script>
 </body>
