@@ -60,7 +60,7 @@ section.levels {
     background-color: var(--sectionsbg);
     padding: 5px 15px;
     border-radius: 10px;
-
+    
     display: flex;
     flex-direction: column;
 }
@@ -69,16 +69,45 @@ section.levels article {
     background-color: var(--lightBase);
     border-radius: 10px;
     margin-top: 10px;
+    /* height: 150px; */
     
     display: flex;
 }
 
 section.levels article img {
+    /* FIX LATER */
     width: 100px;
     height: auto;
 }
 
-section.levels h3 {
-    /* background-color: #8f5761; */
-    
+section.levels article div.project-description {
+    padding: 10px 15px;
+    text-align: justify;
+}
+
+section.levels article div.project-description h3 {
+    font-family: var(--fontTitle);
+    font-size: 18px;
+    color: var(--oldPink);
+}
+
+/* section.levels article div.project-description div.technologies {
+
+} */
+
+section.levels article div.project-description div.technologies i {
+    font-size: 16px;
+    width: 15px;
+}
+
+section.levels article div.project-description div.technologies i.fa-html5 {
+    color: #f55050;
+}
+
+section.levels article div.project-description div.technologies i.fa-css3-alt {
+    color: #507cf5;
+}
+
+section.levels article div.project-description div.technologies i.fa-square-js {
+    color: #eae735;
 }
