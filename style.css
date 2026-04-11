@@ -1,9 +1,16 @@
 @charset "utf-8";
 
-/* 
-C38D94
-A76571
-A76571
-95D5B2
-FDFFFC
-*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+:root {
+    --lightPink: #C38D94;
+    --oldPink: #A76571;
+    --lightGreen: #95D5B2;
+    --lightBase: #FDFFFC;
+    --darkBase: #2b2b2b;
+
+    --fontTitle: "Zain", sans-serif;
+    --fontBody: "Red Hat Text", sans-serif;
+}
+
+
