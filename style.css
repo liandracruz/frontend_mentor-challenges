@@ -3,14 +3,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 
 :root {
-    --lightPink: #C38D94;
-    --oldPink: #A76571;
+    --lightPink: #cda3a8;
+    --oldPink: #8f5761;
     --lightGreen: #95D5B2;
     --lightBase: #FDFFFC;
     --darkBase: #2b2b2b;
+    --sectionsbg: #f7f7f793;
 
     --fontTitle: "Zain", sans-serif;
     --fontBody: "Red Hat Text", sans-serif;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: var(--darkBase);
+    text-decoration: none;
+}
 
+body {
+    background-color: var(--lightPink);
+    font-family: var(--fontBody);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+main {
+    background-color: var(--lightBase);
+    padding: 15px;
+    border-radius: 12px;
+}
+
+header {
+    margin: 0px 10px 15px 10px;
+    text-align: justify;
+}
+
+h1 {
+    font-family: var(--fontTitle);
+    color: var(--oldPink);
+}
+
+p > a {
+    color: var(--lightPink);
+    text-decoration: none;
+}
+
+p > a:hover {
+    color: var(--lightGreen);
+    text-decoration: underline;
+}
+
+section.levels {
+    background-color: var(--sectionsbg);
+    padding: 5px 15px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+section.levels article {
+    background-color: var(--lightBase);
+    border-radius: 10px;
+    margin-top: 10px;
+    
+    display: flex;
+}
+
+section.levels article img {
+    width: 100px;
+    height: auto;
+}
+
+section.levels h3 {
+    /* background-color: #8f5761; */
+    
+}
