@@ -67,11 +67,12 @@ section.levels {
     flex-direction: column;
 }
 
-section.levels h2 > i {
+section.levels h2 i#sections-arrow-element {
     color: var(--lightPink);
+    transition: 0.5s;
 }
 
-section.levels:hover h2 > i {
+section.levels:hover h2 i#sections-arrow-element {
     color: var(--lightGreen);
 }
 
@@ -79,11 +80,16 @@ section.levels article {
     background-color: var(--lightBase);
     border-radius: 10px;
     margin-top: 15px;
-    /* height: 150px; */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
-
     
     display: flex;
+    transition: margin 0.5s, box-shadow 0.5s ease;
+}
+
+section.levels article:hover {
+    margin: 25px 0px 10px 0px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+    border: 2px solid var(--oldPink);
 }
 
 section.levels article div.project-preview {
