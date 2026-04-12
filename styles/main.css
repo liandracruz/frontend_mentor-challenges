@@ -67,6 +67,10 @@ section.levels {
     flex-direction: column;
 }
 
+section.levels h2 {
+    color: var(--oldPink);
+}
+
 section.levels h2 i#sections-arrow-element {
     color: var(--lightPink);
     transition: 0.5s;
