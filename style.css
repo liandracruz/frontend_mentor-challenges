@@ -34,6 +34,7 @@ main {
     background-color: var(--lightBase);
     padding: 15px;
     border-radius: 12px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.451);
 }
 
 header {
@@ -68,16 +69,26 @@ section.levels {
 section.levels article {
     background-color: var(--lightBase);
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     /* height: 150px; */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+
     
     display: flex;
 }
 
+section.levels article div.project-preview {
+    width: 350px;
+    height: 150px;
+    overflow: hidden;
+}
+
 section.levels article img {
     /* FIX LATER */
-    width: 100px;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 section.levels article div.project-description {
