@@ -96,7 +96,8 @@ section.levels article {
     margin-top: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
     
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% auto;
     transition: margin 0.5s, box-shadow 0.5s ease;
 }
 
@@ -107,9 +108,9 @@ section.levels article:hover {
 }
 
 section.levels article div.project-preview {
-    width: 350px;
+    /* width: 350px;*/
     height: 155px;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 section.levels article img {
