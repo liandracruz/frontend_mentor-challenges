@@ -67,6 +67,10 @@ section.levels {
     flex-direction: column;
 }
 
+section.levels.closed a {
+    display: none;
+}
+
 section.levels h2 {
     color: var(--oldPink);
 }
@@ -77,6 +81,12 @@ section.levels h2 i#sections-arrow-element {
 }
 
 section.levels:hover h2 i#sections-arrow-element {
+    color: var(--lightGreen);
+    transform: rotate(90deg);
+}
+
+section.levels:not(.closed) i#sections-arrow-element {
+    transform: rotate(90deg);
     color: var(--lightGreen);
 }
 
