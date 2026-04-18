@@ -4,12 +4,13 @@
     main {
         width: 60vw;
         margin: auto;
+        padding-bottom: 30px;
     }
     
     section.levels {
         display: grid;
         grid-template-columns: repeat(3, auto);
-        grid-template-rows: repeat(4, auto);
+        grid-template-rows: auto;
         align-items: stretch;
         gap: 15px;
     }
@@ -25,7 +26,7 @@
     }
 
     section.levels article:hover {
-        margin: 15px 0px 15px 0px;
+        margin: 15px 10px 15px 10px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
         border: 2px solid var(--oldPink);
     }

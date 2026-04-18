@@ -68,7 +68,7 @@ section.levels {
 }
 
 section.levels.closed a {
-    /* display: none; */
+    display: none;
 }
 
 section.levels h2 {
