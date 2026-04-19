@@ -23,13 +23,13 @@
         height: 100%;
         display: flex;
         flex-direction: column;
+        transition: transform 0.5s ease, box-shadow 0.5s ease;
     }
 
     section.levels article:hover {
-        margin: 15px 10px 15px 10px;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
-        border: 2px solid var(--oldPink);
-    }
+        transform: translateY(-15px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+      }
 
     section.levels article img {
         border-radius: 10px 10px 0px 0px;
