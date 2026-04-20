@@ -18,8 +18,8 @@ This is my solution to the [Results summary component challenge on Frontend Ment
 
 ### Screenshot
 
-![Desktop version](design\screenshot-desktop.png)
-![Mobile version](design\screenshot-mobile.png)
+![Desktop version](design/screenshot-desktop.png)
+![Mobile version](design/screenshot-mobile.png)
 
 ### Links
 
