@@ -18,8 +18,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![Desktop version](design\desktop-version.png)
-![Mobile version](design\mobile-version.png)
+![Desktop version](design/desktop-version.png)
+![Mobile version](design/mobile-version.png)
 
 ### Links
 
