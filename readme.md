@@ -3,6 +3,7 @@ This repository was created with the purpose of keeping all my [front-end mentor
 
 ## Challenges Roadmap
 - [Newbie Challenges](#newbie-challenges)
+- [Author](#author)
 
 ---
 
@@ -16,3 +17,11 @@ This repository was created with the purpose of keeping all my [front-end mentor
 - [Faq accordion](challenges/newbie/faq-accordion-main/README.md)
 - [Coming soon](challenges/newbie/base-apparel-coming-soon-master/README.md)
 - [Ping coming soon page](challenges/newbie/ping-coming-soon-page-master/)
+
+---
+
+## Author
+Learn more about me and my work on the links below:
+- [Linkedin](https://www.linkedin.com/in/liandra-cruz-971a32350/)
+- [GitHub](https://github.com/liandracruz)
+- [Front-end Mentor](https://www.frontendmentor.io/profile/liandracruz)
