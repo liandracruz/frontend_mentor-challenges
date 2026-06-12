@@ -16,7 +16,10 @@ This repository was created with the purpose of keeping all my [front-end mentor
 - [Price component](challenges/newbie/single-price-grid-component-master/README.md)
 - [Faq accordion](challenges/newbie/faq-accordion-main/README.md)
 - [Coming soon](challenges/newbie/base-apparel-coming-soon-master/README.md)
-- [Ping coming soon page](challenges/newbie/ping-coming-soon-page-master/)
+- [Ping coming soon page](challenges/newbie/ping-coming-soon-page-master/README.md)
+
+## Junior challenges
+- [Bento grid](challenges/junior/bento-grid-main/README.md)
 
 ---
 
