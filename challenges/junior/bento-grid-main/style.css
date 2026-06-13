@@ -1,0 +1,26 @@
+@chatset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+    --background: #dacffc;
+    --purple: #7650dc;
+    --light-yellow: #f9eee1;
+    --yellow: #ffcb6b;
+    --white: #ffffff;
+    --black: #121212;
+
+    --font: "DM Sans", sans-serif;   
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--font);
+    font-size: 18px;
+}
