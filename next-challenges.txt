@@ -3,6 +3,8 @@
 
     https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj
 
+    https://www.frontendmentor.io/challenges/hotel-booking-confirmation-page
+
     https://www.frontendmentor.io/challenges/coding-bootcamp-testimonials-slider-4FNyLA8JL
 
     https://www.frontendmentor.io/challenges/agency-landing-page-7yVs3B6ef
@@ -58,6 +60,8 @@
 
     https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29
 
+    https://www.frontendmentor.io/challenges/weather-app-K1FhddVm49
+
     https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq
 
     https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt
@@ -75,4 +79,6 @@
 
     https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH
 
-    https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca 
+    https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca
+
+    https://www.frontendmentor.io/challenges/rss-feed-reader
