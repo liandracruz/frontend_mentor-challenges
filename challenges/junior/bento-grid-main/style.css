@@ -20,7 +20,76 @@
 }
 
 body {
-    background-color: var(--background);
+    background-color: #ece5ff;
     font-family: var(--font);
     font-size: 18px;
+    padding-top: 30px;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.bento-card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+section.card-purple {
+    background-color: var(--purple);
+}
+
+section.card-white {
+    background-color: var(--white);
+}
+
+section.card-yellow {
+    background-color: var(--yellow);
+}
+
+section.card-optimize {
+    background-color: var(--background);
+}
+
+section.card-create {
+    background-color: var(--light-yellow);
+}
+
+section#presentation-card {
+    padding: 35px;
+    text-align: center;
+    color: var(--white);
+}
+
+section#presentation-card h1 {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+section#presentation-card h1 > span#amount {
+    color: var(--yellow);
+}
+
+section#presentation-card h1 > span#faster {
+    font-style: italic;
+}
+
+section#presentation-card img#five-stars-img {
+    width: 150px;
+    margin: 3px auto;
+}
+
+section#presentation-card p {
+    font-size: 15px;
+}
+
+section#card-accounts-img {
+    width: 100%;
 }
